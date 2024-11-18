@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-image: linear-gradient(to bottom right, rgb(34, 35, 46),rgb(255, 0, 13)); 
+}
+.nav{
+   #bar{
+    display: none;
+         background-color: blue;
+         height: 60px;
+         width: 60px;
+         border-radius: 50%;
+         align-content: center;
+         text-align: center;
+         font-size: x-large;
+   }
+  
+    .icon{
+        display: flex;
+        gap: 10px;
+    }
+    background-color: rgba(0, 0, 0, 0.363);
+    position: fixed;
+    width: 100%;
+    padding: 40px 0%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    img{
+        width:48% ;
+    }
+    .img{
+        display: flex;
+   justify-content: space-between;
+        padding-left: 4%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;  
+       
+    }
+    .vk{
+  background-color: rgb(250, 250, 250);
+        height: 50px;
+        width: 1px;
+    }
+}
+.navbar{
+    
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.a1:hover{
+    background-color: rgb(240, 39, 39);
+    padding:10px 20px ;
+    border-radius: 5px;
+}
+.a1:active{
+    background-color: transparent;
+}
+.mid{
+    padding: 100px 4% 80px;
+
+    img{
+   
+        height: 870px;
+        width: 100%;
+        object-fit:cover;
+        border-radius: 10px;
+    }
+   h1{
+ padding: 120px 0px 10px;
+    color: white;
+    font-size: 7.5rem;
+    padding-bottom: 100px;
+   }
+}
+.s1{
+    padding: 30px 4%;
+    .top{
+        font-size: 90px;
+        padding: 100px 0px;
+    }
+    .div1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+   
+    i{
+        background-color: red;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        align-content: center;
+        text-align: center;
+        color: white;
+    }
+    img{
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .div14{
+        img{
+            height: 650px;
+        }
+        width:320%;
+
+    }
+   h2{
+    font-size: 35px;
+    color: blue;
+    padding: 30px 0px;
+   }
+   p{
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(56, 54, 54);
+   }
+   h3{
+    color:rgb(230, 42, 42) ;
+    font-size: 25px;
+    padding: 30px 0px;
+    
+   }
+}
+.s2{
+    background-color: rgb(255, 255,0);
+    padding: 50px 4%;
+    transition: all linear 3s;
+    display: flex;
+    gap: 12%;
+    justify-content: space-between;
+    img{
+       width: 40%;
+       height: auto;
+       border-radius: 10px;
+       object-fit: contain;
+
+    }
+    h1{
+        font-size: 6rem;
+        color: blue;
+    }
+    p{
+        font-size: 3rem;
+        padding: 50px 0px;
+    }
+    h3{
+        font-size: 2.6rem;
+        color: rgb(203, 27, 27);
+    }
+}
+.s3{
+    background-color:rgb(240, 39, 39) ;
+    color: white;
+    padding: 100px 4%;
+    #vk{
+        border: none;
+       }
+   
+    h1{
+        font-size: 5.5rem;
+    }
+    img{
+        gap: 30px;
+        border-radius: 50%;
+        height: 220px;
+    }
+    .div2{
+      
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5%;
+        height: 100%;
+        align-items: center;
+       padding: 30px 0px;
+       border-bottom: 0.01px solid  rgb(255, 116, 116);
+       h3{
+        font-size: 25px;
+        padding-top: 50px;
+       }
+       h4{
+      font-size: x-large;
+        color: rgb(255, 255,0);
+        padding-top: 30px;
+        padding-bottom: 50px;
+       }
+       p{
+        font-size: larger;
+       }
+    }
+    .sp{
+padding: 20px 0px;
+font-size: x-large;
+    }
+   
+    
+}
+.s4{
+    background-color: rgb(31, 35, 46);
+    padding: 50px 4%;
+    h1{
+        font-size: 90px;
+        color: white;
+        padding-bottom: 40px;
+    }
+    input{
+        width: 100%;
+        height: 70px;
+        border-radius: 10px;
+        padding-left: 20px;
+        font-size: larger;
+    }
+    textarea{
+        border-radius: 10px;
+        padding: 40px 50px;
+        font-size: larger;
+        margin: 30px 0px;
+        width: 100%;
+        
+    }
+    .text{
+        display: flex;
+    }
+    .inp{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap:4% ;
+    }
+    #submit{
+        height:70px ;
+        width: 200px;
+        border-radius: 30px;
+        background-color:rgb(240, 39, 39) ;
+        color: white;
+        border: none;
+        text-align: center;
+    }
+}
+.s5{
+    background-color: rgb(21, 23, 31);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 4%;
+    color: white;
+ font-size: x-large;
+   a{
+    color: red;
+   }
+   
+}
+@media only  screen and (max-width:1300px) {
+.a1{
+    display: none;
+}
+.car{
+    display: block;
+   }
+   #bar{
+    display: block;
+   }
+   .navbar{
+    display: none;
+   }
+   .img{
+    width: 100%;
+    img{
+        width: 250px;
+    }
+
+   }
+   .mid{
+    h1{
+        font-size: 5rem;
+        padding: 80px 0px 10px;
+    }
+    img{
+        height: 500px;
+    }
+}
+}
+@media only  screen and (max-width:1000px){
+   
+.s1{
+    .div1{
+        grid-template-columns: auto auto;
+        .div14{
+            padding-left: 10px;
+            img{
+                width: 30%;
+                height: 400px;
+                border-radius: 10px;
+                object-fit: fill;
+            }
+        }
+        h2{
+            font-size: 25px;
+            color: blue;
+            padding: 30px 0px;
+           }
+           p{
+            font-size: 20px;
+            font-weight: lighter;
+            color: rgb(56, 54, 54);
+           }
+           h3{
+            color:rgb(230, 42, 42) ;
+            font-size: 20px;
+            padding: 30px 0px;
+            
+           }
+    }
+}
+.s2{
+    h1{
+        font-size: 4rem;
+        color: blue;
+    }
+    p{
+        font-size: 2.1rem;
+        padding: 50px 0px;
+    }
+    h3{
+        font-size: 1.8rem;
+        color: rgb(203, 27, 27);
+    }
+}
+
+}
